@@ -1,0 +1,68 @@
+/* line 1, sass/workshop-filter/_main.scss */
+#workshop-filter {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background: #4a86c5;
+  padding: 10px;
+  margin: 1rem 0;
+}
+@media (min-width: 982px) {
+  /* line 1, sass/workshop-filter/_main.scss */
+  #workshop-filter {
+    flex-direction: row;
+    align-items: flex-end;
+  }
+}
+/* line 13, sass/workshop-filter/_main.scss */
+#workshop-filter input.button {
+  height: 35px;
+}
+/* line 16, sass/workshop-filter/_main.scss */
+#workshop-filter .workshop-filter-title {
+  color: white;
+}
+@media (min-width: 1100px) {
+  /* line 16, sass/workshop-filter/_main.scss */
+  #workshop-filter .workshop-filter-title {
+    text-align: center;
+  }
+}
+/* line 21, sass/workshop-filter/_main.scss */
+#workshop-filter .select-wrapper {
+  margin-right: 1rem;
+  float: none;
+  width: 100%;
+}
+@media (min-width: 1100px) {
+  /* line 21, sass/workshop-filter/_main.scss */
+  #workshop-filter .select-wrapper {
+    width: 85%;
+  }
+}
+/* line 28, sass/workshop-filter/_main.scss */
+#workshop-filter .select-wrapper .caret {
+  z-index: 10;
+}
+/* line 31, sass/workshop-filter/_main.scss */
+#workshop-filter .select-wrapper .select-dropdown {
+  background: white;
+  background-color: white;
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #f2f2f2;
+  border-radius: 0px;
+}
+
+/* line 43, sass/workshop-filter/_main.scss */
+.title-bar span.blue-text {
+  color: #4a86c5;
+  text-transform: lowercase;
+}
+/* line 47, sass/workshop-filter/_main.scss */
+.title-bar span.not-blue-text {
+  padding: 0 1em;
+  color: #333;
+  text-transform: uppercase;
+}

@@ -1,0 +1,17 @@
+TODO
+-create multiple selects from one php function instead of running several
+-add action to show 
+-add title for widget
+-clean up reroute when appending query vars
+
+
+
+OPTIONAL
+-make sure all search terms are returned in the title
+-change dates to match locations filter
+-add hook for widget to be called in, add that hook to template file
+-add select function to all search filters
+
+
+
+
